@@ -1,6 +1,6 @@
 # N.Order (Neighborhood Ordering)
 
-N.Order is disk-friendly graph ordering to reduce I/O overhead. In disk-based graph processing, entire graph data is stored into disk. Generally, graph data is arranged by vertex id. Because graph processing workload has extremely random access graph processing on disk has low efficiency. N.Order modifies graph layout on disk by re-assigning vertex id. So, it can reduce I/O overhead and improve graph processing performance.
+N.Order is disk-friendly graph ordering for reducing I/O overhead. In disk-based graph processing, entire graph data is stored into disk. Generally, graph data is arranged by vertex id. Graph processing on disk has low efficiency because graph processing workload has extremely random access. N.Order modifies graph layout on disk by re-assigning vertex id. So, it can reduce I/O overhead and improve graph processing performance.
 
 ## N.Order`s Goal
 
